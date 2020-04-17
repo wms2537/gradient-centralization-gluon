@@ -3,7 +3,8 @@ from mxnet.ndarray import (zeros, clip, sqrt, square)
 from mxnet.ndarray import (sgd_update, sgd_mom_update,
                        mp_sgd_update, mp_sgd_mom_update,
                        multi_sgd_update, multi_sgd_mom_update,
-                       multi_mp_sgd_update, multi_mp_sgd_mom_update, adam_update)
+                       multi_mp_sgd_update, multi_mp_sgd_mom_update, adam_update,
+                       nag_mom_update, mp_nag_mom_update)
 from mxnet.optimizer import Optimizer, register
 
 import math
